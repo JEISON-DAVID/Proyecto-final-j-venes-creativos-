@@ -1,0 +1,113 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado y el menú de navegación */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos para el banner */
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner h1 {
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+/* Estilos para la sección "Sobre Nosotros" */
+.about {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la sección de servicios */
+.services {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para la sección de reseñas de clientes */
+.reviews {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.review {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Estilos para el pie de página y enlaces sociales */
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+``
