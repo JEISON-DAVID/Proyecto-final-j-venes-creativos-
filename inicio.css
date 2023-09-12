@@ -1,113 +1,151 @@
-/* Estilos generales para el cuerpo de la página */
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
-/* Estilos para el encabezado y el menú de navegación */
-header {
-    background-color: #007BFF;
-    color: #fff;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Menú de navegación estilo Mercado Libre */
+.menu-navegacion {
+    background-color: #ffe600;
+    color: #333;
     padding: 10px 0;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
+.menu-navegacion ul {
+    list-style: none;
     padding: 0;
     text-align: center;
 }
 
-nav ul li {
+.menu-navegacion li {
     display: inline;
     margin-right: 20px;
 }
 
-nav ul li a {
-    color: #fff;
+.menu-navegacion a {
     text-decoration: none;
+    color: #333;
     font-weight: bold;
 }
 
-/* Estilos para el banner */
+/* Banner con el nombre de la empresa */
 .banner {
     text-align: center;
+    padding: 40px 0;
 }
 
-.banner img {
-    max-width: 100%;
-    height: auto;
-}
-
-.banner h1 {
-    margin-top: 20px;
+.nombre-empresa {
     font-size: 36px;
+    color: #333;
 }
 
-/* Estilos para la sección "Sobre Nosotros" */
-.about {
-    background-color: #f2f2f2;
-    padding: 20px;
+/* Sección sobre la empresa */
+.seccion-empresa {
+    text-align: center;
+    padding: 40px 0;
 }
 
-.about img {
+.titulo-empresa {
+    font-size: 24px;
+    color: #333;
+}
+
+.imagen-empresa {
     max-width: 100%;
     height: auto;
+    margin-top: 20px;
 }
 
-/* Estilos para la sección de servicios */
-.services {
-    padding: 20px;
+.descripcion-empresa {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Sección de servicios al estilo Mercado Libre */
+.seccion-servicios {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 
-.service {
-    width: 45%;
+.servicio {
     background-color: #fff;
     padding: 20px;
-    border: 1px solid #ddd;
     margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 40px);
     text-align: center;
+    transition: transform 0.2s ease-in-out;
 }
 
-/* Estilos para la sección de reseñas de clientes */
-.reviews {
-    background-color: #f2f2f2;
-    padding: 20px;
+.servicio:hover {
+    transform: scale(1.05);
+}
+
+.titulo-servicio {
+    font-size: 24px;
+    color: #333;
+}
+
+.descripcion-servicio {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.precio-servicio {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Sección de reseñas de clientes */
+.seccion-reseñas {
     text-align: center;
+    padding: 40px 0;
 }
 
-.review {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
+.titulo-reseñas {
+    font-size: 24px;
+    color: #333;
 }
 
-/* Estilos para el pie de página y enlaces sociales */
-footer {
-    background-color: #007BFF;
+.comentario-reseña {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Pie de página estilo Mercado Libre */
+.pie-pagina {
+    background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
-.social-links {
-    list-style-type: none;
-    margin: 0;
+.enlaces-redes-sociales {
+    list-style: none;
     padding: 0;
 }
 
-.social-links li {
+.enlaces-redes-sociales li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
-.social-links li a {
-    color: #fff;
+.enlaces-redes-sociales a {
     text-decoration: none;
-    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
 }
-``

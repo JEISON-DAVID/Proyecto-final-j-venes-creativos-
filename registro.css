@@ -9,6 +9,8 @@ body {
 h1 {
     text-align: center;
     margin-top: 20px;
+    color: royalblue;
+    
 }
 
 form {
@@ -48,14 +50,14 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: royalblue;
 }
 
 /* Estilos específicos para el botón de registro */
 #registrationForm button {
-    background-color: #28a745;
+    background-color: royalblue;
 }
 
 #registrationForm button:hover {
-    background-color: #1d822f;
+    background-color: royalblue;
 }

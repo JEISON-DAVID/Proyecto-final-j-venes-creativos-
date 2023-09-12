@@ -3,64 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="inicio.css">
-    <title>Bienvenido a Tu Empresa</title>
+    <link rel="stylesheet" href="inicio.css"> <!-- Reemplaza 'styles.css' con la ruta de tu archivo CSS -->
+    <title>Tu Empresa</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+    <!-- Menú de navegación -->
+    <nav class="menu-navegacion">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Acerca de Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner con el nombre de la empresa -->
+    <header class="banner">
+        <h1 class="nombre-empresa">Nombre de Tu Empresa</h1>
     </header>
 
-    <section class="banner">
-        <h1>Nombre de Tu Empresa</h1>
-        <img src="imagen-banner.jpg" alt="Banner de la Empresa">
+    <!-- Sección sobre la empresa -->
+    <section class="seccion-empresa">
+        <h2 class="titulo-empresa">Acerca de Nosotros</h2>
+        <img class="imagen-empresa" src="empresa.jpg" alt="Imagen de la empresa"> <!-- Reemplaza 'empresa.jpg' con la URL de tu imagen -->
+        <p class="descripcion-empresa">Descripción de tu empresa y lo que haces.</p>
     </section>
 
-    <section class="about">
-        <h2>Sobre Nosotros</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget leo a metus rhoncus ultricies.</p>
-        <img src="imagen-sobre-nosotros.jpg" alt="Sobre Nosotros">
-    </section>
-
-    <section class="services">
-        <h2>Nuestros Servicios</h2>
-        <div class="service">
-            <h3>Servicio 1</h3>
-            <p>Descripción del Servicio 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Precio: $XX</p>
+    <!-- Sección de servicios -->
+    <section class="seccion-servicios">
+        <h2 class="titulo-servicios">Nuestros Servicios</h2>
+        <div class="servicio">
+            <img class="imagen-servicio" src="servicio1.jpg" alt="Servicio 1"> <!-- Reemplaza 'servicio1.jpg' con la URL de tu imagen -->
+            <h3 class="titulo-servicio">Servicio 1</h3>
+            <p class="descripcion-servicio">Descripción del Servicio 1.</p>
+            <p class="precio-servicio">Precio: $XXX</p>
         </div>
-        <div class="service">
-            <h3>Servicio 2</h3>
-            <p>Descripción del Servicio 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Precio: $XX</p>
-        </div>
-    </section>
-
-    <section class="reviews">
-        <h2>Reseñas de Clientes</h2>
-        <div class="review">
-            <p>“Excelente servicio y atención al cliente. ¡Los recomiendo ampliamente!”</p>
-            <p>- Cliente Satisfecho</p>
-        </div>
-        <div class="review">
-            <p>“Increíble calidad en sus productos. Siempre vuelvo por más.”</p>
-            <p>- Otro Cliente Feliz</p>
+        <div class="servicio">
+            <img class="imagen-servicio" src="servicio2.jpg" alt="Servicio 2"> <!-- Reemplaza 'servicio2.jpg' con la URL de tu imagen -->
+            <h3 class="titulo-servicio">Servicio 2</h3>
+            <p class="descripcion-servicio">Descripción del Servicio 2.</p>
+            <p class="precio-servicio">Precio: $XXX</p>
         </div>
     </section>
 
-    <footer>
-        <ul class="social-links">
+    <!-- Sección de reseñas de clientes -->
+    <section class="seccion-reseñas">
+        <h2 class="titulo-reseñas">Reseñas de Clientes</h2>
+        <div class="reseña">
+            <blockquote class="comentario-reseña">Excelente servicio. ¡Muy recomendado!</blockquote>
+        </div>
+        <div class="reseña">
+            <blockquote class="comentario-reseña">Los productos son de alta calidad. ¡Volveré a comprar!</blockquote>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="pie-pagina">
+        <ul class="enlaces-redes-sociales">
             <li><a href="#">Facebook</a></li>
             <li><a href="#">Twitter</a></li>
             <li><a href="#">Instagram</a></li>
         </ul>
     </footer>
-    <script src="login.css"></script>
 </body>
 </html>

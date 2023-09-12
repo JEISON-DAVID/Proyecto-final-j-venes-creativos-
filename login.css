@@ -38,7 +38,7 @@ input[type="password"] {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007BFF;
+    background-color: royalblue;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -46,14 +46,14 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: royalblue;
 }
 
 /* Estilos específicos para el botón de inicio de sesión */
 #loginForm button {
-    background-color: #28a745;
+    background-color: royalblue;
 }
 
 #loginForm button:hover {
-    background-color: #1d822f;
+    background-color: royalblue;
 }
