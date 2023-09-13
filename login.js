@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Verificar la contraseña
             if (user.password === password) {
-                alert(`Inicio de sesión exitoso. Bienvenido, ${email}!`);
-                window.location.href = "inicio.html"; // Redirigir a la página de inicio
+                alert(`Inicio de sesión exitoso. Bienvenido, ${email}!`);p
+                window.location.href = "index.html"; // Redirigir a la página de inicio
             } else {
                 alert("Contraseña incorrecta. Por favor, inténtalo de nuevo.");
             }
