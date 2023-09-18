@@ -1,43 +1,47 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-.contenedor{
-  border: 7px;
-  border-style: solid;
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 7px solid;
   border-radius: 15px;
-  
+  padding: 10px 20px;
 }
-.logo_contenedor{
-  
-}
-.logo_contenedor h1{
+.logo_contenedor h1 {
   font-size: 25px;
-  
+  white-space: nowrap;
+  margin-bottom: 10px; /* Agrega un margen inferior para separar del menú */
 }
-menu_container{
-  
-}
-.menu{
-  
-}
-ul_menu{
-  margin: 50px 50px;
-
-  
-  
-}
-
-.ul_menu li{
-  display: inline-block;
+.ul_menu {
+  list-style-type: none;
+  margin: 0;
   padding: 10px;
-  margin-right: 10px;
-  text-align: center;
-  border-style: solid;
-  border-color: red;
-  border-radius: 15px;
-  position: absolute;
-  right:20px;
-  top:-0px;
-  justify-content: center;
+  display: flex;
+  align-items: center;
+    border: 1px solid blue;
 }
+.ul_menu li {
+  margin-right: 30px;
+  border: 1px solid red;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.productos {
+    display: flex;
+    overflow: hidden;
+}
+
+.producto {
+    width: 100%; /* Asegura que cada producto ocupe toda la pantalla */
+    min-width: 100%; /* Para evitar que las imágenes se agranden más allá de su tamaño original */
+    text-align: center; /* Centra el contenido */
+}
+.producto img {
+    width: 100%; /* Establece el ancho al 100% para que todas las imágenes tengan el mismo tamaño */
+    height: auto; /* Mantiene la proporción de aspecto original de las imágenes */
+}
+
