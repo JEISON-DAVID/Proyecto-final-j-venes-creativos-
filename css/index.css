@@ -1,35 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.contenedor{
+  border: 7px;
+  border-style: solid;
+  border-radius: 15px;
+  
+}
+.logo_contenedor{
+  
+}
+.logo_contenedor h1{
+  font-size: 25px;
+  
+}
+menu_container{
+  
+}
+.menu{
+  
+}
+ul_menu{
+  margin: 50px 50px;
 
-  /* Estilos generales del encabezado */
-.contenedor {
-    background-color: #fdfcfc; /* Cambia el color de fondo según tus preferencias */
-    color: rgb(12, 11, 11);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px; /* Ajusta el espaciado según tus preferencias */
+  
+  
 }
 
-/* Estilos del logotipo */
-.logo {
-    font-size: 24px; /* Cambia el tamaño de fuente según tus preferencias */
-    font-weight: bold;
-    list-style: none;
-}
-
-/* Estilos de "Login" y "Register" */
-.login,
-.register {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-}
-
-/* Posicionamiento de "Login" y "Register" en las esquinas opuestas */
-.login {
-    margin-right: auto; /* Empuja "Login" hacia la esquina derecha */
-}
-
-.register {
-    margin-left: auto; /* Empuja "Register" hacia la esquina izquierda */
+.ul_menu li{
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+  text-align: center;
+  border-style: solid;
+  border-color: red;
+  border-radius: 15px;
+  position: absolute;
+  right:20px;
+  top:-0px;
+  justify-content: center;
 }
