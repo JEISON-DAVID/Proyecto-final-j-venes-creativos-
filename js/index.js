@@ -20,7 +20,7 @@ function nextProduct() {
 }
 
 // Establece un intervalo para cambiar automáticamente de producto cada 5 segundos
-setInterval(nextProduct, 5000);
+setInterval(nextProduct, 1000);
 
 // Muestra el primer producto al cargar la página
 showProduct(currentProduct);
