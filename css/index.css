@@ -7,3 +7,118 @@
     text-decoration:none;
     list-style: none;
 }
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    max-width:100%;
+}
+
+.container{
+    max-width: 120px;
+    margin:0 auto;
+}
+
+    
+.header{
+    background: linear-gradient(
+    rgba(29,30,35,0.8),
+      rgba(29,30,35,0.8)
+    ),
+    url(/imagenes/bg.jpg);
+    background-position: top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0 0 0;
+}
+
+.menu{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    color: #F56349;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+
+.menu .navbar ul li a {
+    font-size:18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: 600;
+    
+}
+
+.menu .navbar ul li a:hover{
+    color: #F56349;
+}
+
+#menu{
+    display: none;
+    
+}
+
+.menu-icono{
+    width: 25px;
+    
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+    
+}
+
+.header-txt{
+    text-align: center;
+    padding: 0 200px;
+    
+    
+}
+
+header-txt h1{
+    font-size:85px;
+    line-height: 1;
+    color: white;
+    font-family: 'bebas neue' sans-serif;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 17px;
+    color: whitesmoke;
+    margin-bottom: 35px;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(
+    90deg, rgba(245,99,72,1)0%,
+    rgba(254,140,32,1) 100%
+    
+    );
+    }
