@@ -10,6 +10,8 @@ h1 {
     text-align: center;
     margin-top: 20px;
     color: royalblue;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
     
 }
 
@@ -47,6 +49,8 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30;
 }
 
 button:hover {

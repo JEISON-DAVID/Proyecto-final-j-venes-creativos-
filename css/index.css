@@ -12,12 +12,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-img{
+ img{
     max-width:100%;
-}
-
+} 
 .container{
-    max-width: 120px;
+    max-width: 1020px;
     margin:0 auto;
 }
 
@@ -27,7 +26,7 @@ img{
     rgba(29,30,35,0.8),
       rgba(29,30,35,0.8)
     ),
-    url(/imagenes/bg.jpg);
+    url("../imagenes/bg.jpg" );
     background-position: top center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -35,6 +34,7 @@ img{
     align-items: center;
     min-height: 80vh;
     padding: 80px 0 0 0;
+    
 }
 
 .menu{
@@ -49,7 +49,7 @@ img{
 }
 
 .logo{
-    color: #F56349;
+    color: #4488ee;
     font-size: 30px;
     font-weight: 800;
     text-transform: uppercase;
@@ -71,7 +71,7 @@ img{
 }
 
 .menu .navbar ul li a:hover{
-    color: #F56349;
+    color: #4782f0;
 }
 
 #menu{
@@ -97,10 +97,10 @@ img{
     
 }
 
-header-txt h1{
+.header-txt h1{
     font-size:85px;
     line-height: 1;
-    color: white;
+    color: rgb(66, 114, 216);
     font-family: 'bebas neue' sans-serif;
     margin-bottom: 20px;
 }
@@ -117,8 +117,68 @@ p{
     color: white;
     text-transform: uppercase;
     background: linear-gradient(
-    90deg, rgba(245,99,72,1)0%,
-    rgba(254,140,32,1) 100%
+    90deg, rgb(89, 72, 245)0%,
+    rgb(88, 155, 241) 100%
+
     
     );
+
+    transition: all 0.5s;
     }
+    .btn-1:hover{
+        transform: scale(1.2);
+    }
+
+.about{
+    padding: 100px 0;
+    background-color: black;
+
+
+}
+
+
+.about-content {
+    display: flex;
+}
+
+.about-content img {
+    width: 500px;
+    height: auto;
+}
+
+span{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #4782f0;
+    font-family: 'bebas neue' sans-serif;
+}
+
+h2{
+    font-size: 35px;
+    color: #4782f0;
+    margin: 80px 0;
+}
+
+hr{
+    border:1px solid #4782f0;
+    width: 10%;
+    margin-bottom: 30px;
+    
+}
+
+.about-img{
+    flex-basis:100%;
+
+
+}
+.about-img img{
+border-radius: 20px;
+max-width: 100;
+min-width: 50%;
+
+}
+
+.testimonial{
+    padding: 100px 0;
+    background: black;
+}

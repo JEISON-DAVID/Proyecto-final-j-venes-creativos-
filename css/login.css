@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,6 +9,8 @@ body {
 h1 {
     text-align: center;
     margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: royalblue;
 }
 
 form {
@@ -43,6 +45,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Kanit', sans-serif;
 }
 
 button:hover {
