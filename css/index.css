@@ -16,7 +16,7 @@ body{
     max-width:100%;
 } 
 .container{
-    max-width: 1020px;
+    max-width:1368px;
     margin:0 auto;
 }
 
@@ -26,7 +26,7 @@ body{
     rgba(29,30,35,0.8),
       rgba(29,30,35,0.8)
     ),
-    url("../imagenes/bg.jpg" );
+    url("/imágenes /bg.jpg" );
     background-position: top center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -139,24 +139,28 @@ p{
 
 .about-content {
     display: flex;
+    align-items: center;
 }
 
-.about-content img {
-    width: 500px;
-    height: auto;
+.about-txt{
+    flex-basis:50%;
+    padding-right:35px;
+    
 }
+
 
 span{
-    font-size: 60px;
+    font-size: 14px;
     text-transform: uppercase;
     color: #4782f0;
-    font-family: 'bebas neue' sans-serif;
+
 }
 
 h2{
     font-size: 35px;
     color: #4782f0;
-    margin: 80px 0;
+    margin: 15px 0;
+    line-height: 1;
 }
 
 hr{
@@ -167,18 +171,250 @@ hr{
 }
 
 .about-img{
-    flex-basis:100%;
+    flex-basis:50%;
 
 
 }
 .about-img img{
-border-radius: 20px;
-max-width: 100;
-min-width: 50%;
+border-radius: 15px;
 
 }
 
 .testimonial{
     padding: 100px 0;
+    background: #191A1F;
+    text-align:center;
+}
+
+.testimonial-content{
+    display:flex;
+    justify-content: space-between;
+    margin-top:35px;
+}
+
+.testimonial-1{
+    flex-basis: calc(50% -25px);
+    background: #3C3B3B;
+    padding:25px;
+    box-shadow: 0 0 20px #111219;
+}
+
+
+.testimonial-1 h4{
+    color: white;
+    font-size: 35px;
+    margin-bottom:15px;
+    
+}
+
+
+
+.testimonial-1 p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.face{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 4px solid 4782f0 ;
+    margin-bottom: 15px;
+    
+}
+
+.star{
+    width: 100px;
+    
+}
+
+.plans{
+    padding: 100px 0 ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     background: black;
 }
+
+.plans hr{
+    width: 5%;
+    
+}
+
+.plans-content{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top:25px;
+    
+}
+
+.plan-1{
+    flex-basis:calc(33.3%-20px);
+    border:1px solid rgba(112, 112, 112, 1);
+    padding:30px 50px;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1),
+    
+}
+
+
+.plan-1 span{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.plan-1 h3{
+    padding:8px;
+    font-size: 25px;
+    color: white;
+    margin: 25px 0 35px 0;
+    background: linear-gradient(90deg,
+    rgb(89, 72, 245)0%,
+    rgb(88, 155, 241) 100%)
+};
+
+plan-1 p{
+    margin-bottom: 20px;
+}
+
+.information{
+    background: #342D2D;
+}
+
+
+.information-content{
+    display: flex;
+}
+
+
+.information-txt{
+    flex-basis: 50%;
+    max-width:500px;
+    margin:0 auto;
+    padding:80px 0 0 0 ;
+    
+}
+
+input{
+    display:block;
+    padding:17px;
+    background: transparent;
+    border:1px solid #827A7A;
+    width:350px;
+    font-size:17px;
+    color:#FFFFFF;
+    margin-bottom: 25px;
+}
+
+::placeholder{
+    color:#D7D7D7;
+}
+
+.information-img{
+    flex-basis: 50%;
+    
+}
+
+.information-img img{
+    height: 100%
+}
+
+.service{
+    margin:50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.service h3{
+    font-size: 17px;
+    color:#FFFFFF;
+    font-weight: 500;
+    margin-left: 15px;
+    
+}
+
+.blog{
+    padding: 100px 0;
+    align-items: center;
+    background: black;
+}
+
+.blog-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    
+}
+
+.blog-1{
+    flex-basis: Calc(33.3% - 25px);
+    background: #555555;
+    
+}
+
+blog-1 img{
+    margin-bottom: 15px;
+    
+    
+}
+
+blog-txt{
+ padding:20px;
+}
+
+blog-txt h3{
+    color:#FFFFFF;
+    font-size:18px;
+    margin:15px 0;
+    
+}
+
+.contacto {
+    padding: 100px 0;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url('/imágenes /bg2.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-content{
+    text-align: center;
+    
+}
+
+.footer {
+    padding: 100px 0;
+    background: black;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+
+.link h3 {
+    font-size: 17px;
+    color: white; /* Color válido */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.link a {
+    font-size: 17px;
+    color: white; /* Color válido */
+    display:block;
+    margin-bottom: 10px;
+}
+
+.link a:hover{
+    color: royalblue;
+}
+
