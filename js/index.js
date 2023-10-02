@@ -1,26 +1,29 @@
-let currentProduct = 0; // Índice del producto actual
-const products = document.querySelectorAll('.producto'); // Selecciona todos los productos
+// Espera a que se cargue completamente el contenido de la página
+document.addEventListener("DOMContentLoaded", function () {
+    // Obtiene una referencia al botón de "Calcular"
+    const calcularBtn = document.querySelector(".information-txt .btn-1");
 
-function showProduct(index) {
-    products.forEach((product, i) => {
-        if (i === index) {
-            product.style.display = 'block'; // Muestra el producto actual
-        } else {
-            product.style.display = 'none'; // Oculta los otros productos
-        }
+    // Agrega un controlador de eventos al botón de "Calcular"
+    calcularBtn.addEventListener("click", function (event) {
+        event.preventDefault(); // Previene que se recargue la página
+
+        // Obtiene los valores de peso y altura ingresados por el usuario
+        const peso = parseFloat(document.querySelector(".information-txt input[placeholder='peso']").value);
+        const altura = parseFloat(document.querySelector(".information-txt input[placeholder='altura']").value);
+
+        // Realiza el cálculo de calorías (puedes personalizar esta fórmula)
+        const calorias = calcularCalorias(peso, altura);
+
+        // Muestra el resultado en una ventana emergente (alerta)
+        alert(`Debes consumir aproximadamente ${calorias} calorías al día.`);
     });
-}
 
-function nextProduct() {
-    currentProduct++;
-    if (currentProduct >= products.length) {
-        currentProduct = 0; // Vuelve al primer producto si llega al final
+    // Función para calcular las calorías (personaliza esta fórmula según tus necesidades)
+    function calcularCalorias(peso, altura) {
+        // Aquí puedes personalizar la fórmula para calcular las calorías según tus requisitos
+        // Esta es una fórmula de ejemplo que puedes modificar
+        const calorias = peso * altura * 10;
+
+        return calorias.toFixed(2); // Redondear el resultado a 2 decimales
     }
-    showProduct(currentProduct);
-}
-
-// Establece un intervalo para cambiar automáticamente de producto cada 5 segundos
-setInterval(nextProduct, 1000);
-
-// Muestra el primer producto al cargar la página
-showProduct(currentProduct);
+});
